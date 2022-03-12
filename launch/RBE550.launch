@@ -1,0 +1,5 @@
+<launch>
+
+<include file = "$(find gopher_unity_endpoint)/launch/gopher_presence_server.launch"/>
+
+</launch>
