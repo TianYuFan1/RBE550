@@ -2,4 +2,6 @@
 
 <include file = "$(find gopher_unity_endpoint)/launch/gopher_presence_server.launch"/>
 
+<node name = "assist" type = "assist.py" pkg = "RBE550"/>
+
 </launch>
